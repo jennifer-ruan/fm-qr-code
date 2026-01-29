@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --white: #fff;
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--slate-300);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h3 {
+  color: var(--slate-900);
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+p {
+  color: var(--slate-500);
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
+
+.qr-container {
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 16px;
+  width: 320px;
+  height: 499px;
+  text-align: center;
+  gap: 24px;
+}
+
+.qr-image img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.qr-content {
+  width: 288px;
+  padding: 0px 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
