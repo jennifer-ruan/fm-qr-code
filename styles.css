@@ -18,7 +18,7 @@ body {
   flex-direction: column;
 }
 
-h3 {
+h1 {
   color: var(--slate-900);
   font-size: 22px;
   line-height: 1.2;
@@ -39,6 +39,7 @@ p {
   height: 499px;
   text-align: center;
   gap: 24px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .qr-image img {
